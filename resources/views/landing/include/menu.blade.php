@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container margin-btn-nav">
     <a class="navbar-brand" href="#page-top"><img src="{{ asset('landing/assets/img/rei1.png') }}" alt="only rei" /></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
