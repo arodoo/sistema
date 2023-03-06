@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
+use Iluminate\Pagination\LengthAwarePaginator;
+use Iluminate\Pagination\Paginator;
 
 class LandingController extends Controller
 {
@@ -26,4 +29,5 @@ class LandingController extends Controller
     public function portafolio() {
         return view('landing.pages.portafolio');
     }
+
 }

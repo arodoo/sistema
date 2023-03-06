@@ -314,20 +314,20 @@ return [
         ['header' => 'Admi'],
         [
             'text'        => 'Usuarios',
-            'url'         => 'admin/admin/usuarios',
-            'icon'        => 'far fa-fw fa-file',
+            'url'         => 'admin/users/usuarios',
+            'icon'        => 'fas fa-fw fa-users',
 
         ],
        // 
         [
             'text' => 'Productos',
             'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'fas fa-fw fa fa-th',
         ],
         [
             'text' => 'Categorías',
             'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
+            'icon' => 'fas fa-fw fa fa-tty',
         ],
         /*[
             'text'    => 'multilevel',
@@ -367,7 +367,21 @@ return [
                 ],
             ],
         ],*/
+
+        
         ['header' => 'Usuario'],
+
+        [
+            'text' => 'Productos',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
+            'text' => 'Carrito',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-fw fa fa-shopping-cart',
+        ]
+        /*
         [
             'text'       => 'important',
             'icon_color' => 'red',
@@ -382,7 +396,7 @@ return [
             'text'       => 'information',
             'icon_color' => 'cyan',
             'url'        => '#',
-        ],
+        ],  */
     ],
 
     /*
